@@ -1,0 +1,35 @@
+{
+  "highway": "prolintas-suke",
+  "concessionaire": "prolintas",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2022-10-15",
+  "last_verified": "2026-06-02",
+  "source": {
+    "url": "https://www.prolintas.com.my/suke/",
+    "scraped_at": "2026-06-02T13:35:05.305+00:00"
+  },
+  "fares": {
+    "SUKE-AMPANG": {
+      "1": 2.3,
+      "2": 4.6,
+      "3": 6.9,
+      "4": 1.2,
+      "5": 2.3
+    },
+    "SUKE-BUKIT-TERATAI": {
+      "1": 2.3,
+      "2": 4.6,
+      "3": 6.9,
+      "4": 1.2,
+      "5": 2.3
+    },
+    "SUKE-ALAM-DAMAI": {
+      "1": 2.3,
+      "2": 4.6,
+      "3": 6.9,
+      "4": 1.2,
+      "5": 2.3
+    }
+  }
+}

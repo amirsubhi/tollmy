@@ -11,14 +11,21 @@
     "name": "Lingkaran Trans Kota Sdn Bhd (LDP)",
     "highways": ["litrak-ldp"],
     "website": "https://www.litrak.com.my",
-    "status": "stub"
+    "status": "live"
+  },
+  {
+    "id": "duke",
+    "name": "Konsortium Lebuhraya Utara-Timur (KL) Sdn. Bhd. (KESTURI)",
+    "highways": ["duke"],
+    "website": "https://www.duke.com.my",
+    "status": "live"
   },
   {
     "id": "prolintas",
     "name": "Projek Lintasan Kota Holdings (AKLEH, SILK, LKSA, etc.)",
-    "highways": ["prolintas-akleh"],
+    "highways": ["prolintas-akleh", "prolintas-suke"],
     "website": "https://www.prolintas.com.my",
-    "status": "stub"
+    "status": "live"
   },
   {
     "id": "kesas",

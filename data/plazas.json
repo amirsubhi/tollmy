@@ -51,5 +51,61 @@
     "highway": "litrak-ldp",
     "system": "open",
     "charging_type": "plaza"
+  },
+  {
+    "id": "DUKE-AYER-PANAS",
+    "name": "Ayer Panas",
+    "highway": "duke",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "DUKE-BATU",
+    "name": "Batu",
+    "highway": "duke",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "DUKE-SEGAMBUT",
+    "name": "Segambut",
+    "highway": "duke",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "DUKE-SENTUL-PASAR",
+    "name": "Sentul Pasar",
+    "highway": "duke",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "DUKE-SENTUL-PASAR-T",
+    "name": "Sentul Pasar Tambahan",
+    "highway": "duke",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SUKE-AMPANG",
+    "name": "Ampang",
+    "highway": "prolintas-suke",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SUKE-BUKIT-TERATAI",
+    "name": "Bukit Teratai",
+    "highway": "prolintas-suke",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SUKE-ALAM-DAMAI",
+    "name": "Alam Damai",
+    "highway": "prolintas-suke",
+    "system": "open",
+    "charging_type": "plaza"
   }
 ]

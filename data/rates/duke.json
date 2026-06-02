@@ -1,0 +1,49 @@
+{
+  "highway": "duke",
+  "concessionaire": "duke",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2017-11-28",
+  "last_verified": "2026-06-02",
+  "source": {
+    "url": "https://www.duke.com.my/page/143/Toll-Fare/",
+    "scraped_at": "2026-06-02T13:35:02.119+00:00"
+  },
+  "fares": {
+    "DUKE-AYER-PANAS": {
+      "1": 2.5,
+      "2": 3.8,
+      "3": 5,
+      "4": 1.3,
+      "5": 1.3
+    },
+    "DUKE-BATU": {
+      "1": 2.5,
+      "2": 3.8,
+      "3": 5,
+      "4": 1.3,
+      "5": 1.3
+    },
+    "DUKE-SEGAMBUT": {
+      "1": 2.5,
+      "2": 3.8,
+      "3": 5,
+      "4": 1.3,
+      "5": 1.3
+    },
+    "DUKE-SENTUL-PASAR": {
+      "1": 2.5,
+      "2": 3.8,
+      "3": 5,
+      "4": 1.3,
+      "5": 1.3
+    },
+    "DUKE-SENTUL-PASAR-T": {
+      "1": 2.5,
+      "2": 3.8,
+      "3": 5,
+      "4": 1.3,
+      "5": 1.3
+    }
+  }
+}
