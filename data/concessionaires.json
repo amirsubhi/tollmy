@@ -16,7 +16,7 @@
   {
     "id": "duke",
     "name": "Konsortium Lebuhraya Utara-Timur (KL) Sdn. Bhd. (KESTURI)",
-    "highways": ["duke"],
+    "highways": ["duke", "spe"],
     "website": "https://www.duke.com.my",
     "status": "live"
   },

@@ -107,5 +107,26 @@
     "highway": "prolintas-suke",
     "system": "open",
     "charging_type": "plaza"
+  },
+  {
+    "id": "SPE-CHAN-SOW-LIN",
+    "name": "Chan Sow Lin",
+    "highway": "spe",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SPE-AMPANG",
+    "name": "Ampang",
+    "highway": "spe",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SPE-SETIAWANGSA",
+    "name": "Setiawangsa",
+    "highway": "spe",
+    "system": "open",
+    "charging_type": "plaza"
   }
 ]
