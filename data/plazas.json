@@ -128,5 +128,26 @@
     "highway": "spe",
     "system": "open",
     "charging_type": "plaza"
+  },
+  {
+    "id": "MEX-SALAK-SELATAN",
+    "name": "Salak Selatan",
+    "highway": "mex",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "MEX-SERI-KEMBANGAN",
+    "name": "Seri Kembangan",
+    "highway": "mex",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "MEX-PUTRAJAYA",
+    "name": "Putrajaya Utama",
+    "highway": "mex",
+    "system": "open",
+    "charging_type": "plaza"
   }
 ]

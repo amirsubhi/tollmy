@@ -28,6 +28,13 @@
     "status": "live"
   },
   {
+    "id": "mex",
+    "name": "Maju Expressway Sdn Bhd (MESB)",
+    "highways": ["mex"],
+    "website": "https://www.mex.com.my",
+    "status": "live"
+  },
+  {
     "id": "kesas",
     "name": "KESAS Sdn Bhd (Shah Alam Expressway)",
     "highways": ["kesas"],

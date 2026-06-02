@@ -16,6 +16,7 @@ const { LitrakScraper } = require('../scrapers/litrak');
 const { DukeScraper } = require('../scrapers/duke');
 const { SukeScraper } = require('../scrapers/suke');
 const { SpeScraper } = require('../scrapers/spe');
+const { MexScraper } = require('../scrapers/mex');
 
 const SCRAPERS = {
   plus: PlusScraper,
@@ -23,6 +24,7 @@ const SCRAPERS = {
   duke: DukeScraper,
   suke: SukeScraper,
   spe: SpeScraper,
+  mex: MexScraper,
 };
 
 async function main() {
