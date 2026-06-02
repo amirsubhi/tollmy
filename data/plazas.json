@@ -130,6 +130,153 @@
     "charging_type": "plaza"
   },
   {
+    "id": "KLK-GOMBAK",
+    "name": "Gombak",
+    "highway": "klk",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "KLK-BENTONG",
+    "name": "Bentong",
+    "highway": "klk",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-KARAK",
+    "name": "Karak",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-LANCHANG",
+    "name": "Lanchang",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-TEMERLOH",
+    "name": "Temerloh",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-CHENOR",
+    "name": "Chenor",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-MARAN",
+    "name": "Maran",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-SRI-JAYA",
+    "name": "Sri Jaya",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-GAMBANG",
+    "name": "Gambang",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-KUANTAN",
+    "name": "Kuantan",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-JABOR",
+    "name": "Jabor",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-CHENEH",
+    "name": "Cheneh",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-CUKAI",
+    "name": "Cukai",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-KIJAL",
+    "name": "Kijal",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-KERTIH",
+    "name": "Kertih",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-PAKA",
+    "name": "Paka",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-KUALA-DUNGUN",
+    "name": "Kuala Dungun",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-BUKIT-BESI",
+    "name": "Bukit Besi",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-AJIL",
+    "name": "Ajil",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-TELEMUNG",
+    "name": "Telemung",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LPT-KUALA-TERENGGANU",
+    "name": "Kuala Terengganu",
+    "highway": "lpt",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
     "id": "MEX-SALAK-SELATAN",
     "name": "Salak Selatan",
     "highway": "mex",

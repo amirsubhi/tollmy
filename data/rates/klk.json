@@ -1,0 +1,28 @@
+{
+  "highway": "klk",
+  "concessionaire": "afa-prime",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2016-01-01",
+  "last_verified": "2026-06-02",
+  "source": {
+    "url": "https://www.afaprime.com/?page_id=328",
+    "scraped_at": "2026-06-02T15:32:16.625+00:00"
+  },
+  "fares": {
+    "KLK-GOMBAK": {
+      "1": 6,
+      "2": 12,
+      "3": 18,
+      "4": 3,
+      "5": 5
+    },
+    "KLK-BENTONG": {
+      "1": 3.5,
+      "2": 7,
+      "3": 10.5,
+      "4": 1.8,
+      "5": 3
+    }
+  }
+}

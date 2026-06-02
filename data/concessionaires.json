@@ -28,6 +28,13 @@
     "status": "live"
   },
   {
+    "id": "afa-prime",
+    "name": "AFA Prime Berhad",
+    "highways": ["klk", "lpt"],
+    "website": "https://www.afaprime.com",
+    "status": "live"
+  },
+  {
     "id": "mex",
     "name": "Maju Expressway Sdn Bhd (MESB)",
     "highways": ["mex"],
