@@ -1,0 +1,38 @@
+[
+  {
+    "id": "PLUS-NSE-JURU",
+    "name": "Juru",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.3361,
+    "lon": 100.4569
+  },
+  {
+    "id": "PLUS-NSE-SBANGKA",
+    "name": "Sungai Bakap",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.1847,
+    "lon": 100.4783
+  },
+  {
+    "id": "PLUS-NSE-IPOH-S",
+    "name": "Ipoh Selatan",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 4.5417,
+    "lon": 101.1019
+  },
+  {
+    "id": "LITRAK-LDP-KELANA",
+    "name": "Kelana Jaya (LDP)",
+    "highway": "litrak-ldp",
+    "system": "open",
+    "charging_type": "plaza",
+    "lat": 3.1058,
+    "lon": 101.5961
+  }
+]

@@ -1,0 +1,50 @@
+name: Report a wrong or outdated fare
+description: Tell us a toll fare in the dataset is incorrect or has changed.
+title: "[fare] <highway>: <entry> → <exit>"
+labels: ["fare-correction"]
+body:
+  - type: input
+    id: highway
+    attributes:
+      label: Highway
+      placeholder: e.g. plus-nse
+    validations:
+      required: true
+  - type: input
+    id: entry
+    attributes:
+      label: Entry plaza (or the single plaza for open systems)
+      placeholder: e.g. PLUS-NSE-JURU
+    validations:
+      required: true
+  - type: input
+    id: exit
+    attributes:
+      label: Exit plaza (closed systems only)
+      placeholder: e.g. PLUS-NSE-IPOH-S
+  - type: dropdown
+    id: class
+    attributes:
+      label: Vehicle class
+      options: ["1 (car)", "2 (lorry 2-axle)", "3 (lorry 3+ axle)", "4 (taxi)", "5 (bus)"]
+    validations:
+      required: true
+  - type: input
+    id: correct_fare
+    attributes:
+      label: Correct fare (MYR)
+      placeholder: e.g. 24.90
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link or screenshot from the operator's calculator / receipt.
+    validations:
+      required: true
+  - type: input
+    id: observed_date
+    attributes:
+      label: When did you observe this?
+      placeholder: e.g. 2026-05-30

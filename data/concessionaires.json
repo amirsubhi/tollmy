@@ -1,0 +1,30 @@
+[
+  {
+    "id": "plus",
+    "name": "PLUS Malaysia Berhad",
+    "highways": ["plus-nse"],
+    "website": "https://www.plus.com.my",
+    "status": "seeded"
+  },
+  {
+    "id": "litrak",
+    "name": "Lingkaran Trans Kota Sdn Bhd (LDP)",
+    "highways": ["litrak-ldp"],
+    "website": "https://www.litrak.com.my",
+    "status": "stub"
+  },
+  {
+    "id": "prolintas",
+    "name": "Projek Lintasan Kota Holdings (AKLEH, SILK, LKSA, etc.)",
+    "highways": ["prolintas-akleh"],
+    "website": "https://www.prolintas.com.my",
+    "status": "stub"
+  },
+  {
+    "id": "kesas",
+    "name": "KESAS Sdn Bhd (Shah Alam Expressway)",
+    "highways": ["kesas"],
+    "website": "https://www.kesas.com.my",
+    "status": "stub"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "highway": "plus-nse",
+  "concessionaire": "plus",
+  "system": "closed",
+  "currency": "MYR",
+  "effective_date": "2026-01-01",
+  "last_verified": "2026-06-01",
+  "source": {
+    "url": "https://www.plus.com.my/index.php?option=com_toll",
+    "scraped_at": "2026-06-01T03:53:41.574+00:00"
+  },
+  "fares": {
+    "PLUS-NSE-JURU": {
+      "PLUS-NSE-SBANGKA": {
+        "1": 9.1,
+        "2": 16.3,
+        "3": 24.5,
+        "4": 5.45,
+        "5": 10.9
+      },
+      "PLUS-NSE-IPOH-S": {
+        "1": 24.9,
+        "2": 44.8,
+        "3": 67.2,
+        "4": 14.95,
+        "5": 29.9
+      }
+    },
+    "PLUS-NSE-SBANGKA": {
+      "PLUS-NSE-IPOH-S": {
+        "1": 16.4,
+        "2": 29.5,
+        "3": 44.3,
+        "4": 9.85,
+        "5": 19.7
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "raya-aidilfitri-2026",
+    "name": "MADANI Festive Toll Assistance — Hari Raya Aidilfitri 2026",
+    "type": "percentage",
+    "value": 50,
+    "starts": "2026-03-18T00:01:00+08:00",
+    "ends": "2026-03-19T23:59:00+08:00",
+    "eligible_classes": ["1"],
+    "scope": "nationwide",
+    "excluded_plazas": ["LINKEDUA-BSI", "LINKEDUA-TGKUPANG"],
+    "conditional_eligibility": [
+      { "plaza": "PENANG-BRIDGE", "additional_classes": ["2"] }
+    ],
+    "source": "https://paultan.org/2026/03/17/50-toll-discount-for-hari-raya-2026-from-march-18-19/",
+    "announced_date": "2026-03-17",
+    "notes": "50% off Class 1 nationwide for 48h. Border plazas (BSI, Tanjung Kupang) excluded. Class 2 eligible only at Penang Bridge."
+  }
+]

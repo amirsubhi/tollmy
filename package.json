@@ -1,0 +1,19 @@
+{
+  "name": "tollmy",
+  "version": "0.1.0",
+  "description": "Open, machine-readable dataset of Malaysian highway toll fares, with a reference calculator and HTTP API.",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "build": "node scripts/build.js",
+    "build:write": "node scripts/build.js --write",
+    "api": "node api/server.js",
+    "test": "node test/calculate.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
