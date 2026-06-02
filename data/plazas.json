@@ -25,12 +25,31 @@
     "charging_type": "plaza"
   },
   {
-    "id": "LITRAK-LDP-KELANA",
-    "name": "Kelana Jaya (LDP)",
+    "id": "LITRAK-LDP-PENCHALA",
+    "name": "Penchala",
     "highway": "litrak-ldp",
     "system": "open",
-    "charging_type": "plaza",
-    "lat": 3.1058,
-    "lon": 101.5961
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LITRAK-LDP-PJ",
+    "name": "Petaling Jaya",
+    "highway": "litrak-ldp",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LITRAK-LDP-PUCHONG-B",
+    "name": "Puchong Barat",
+    "highway": "litrak-ldp",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LITRAK-LDP-PUCHONG-S",
+    "name": "Puchong Selatan",
+    "highway": "litrak-ldp",
+    "system": "open",
+    "charging_type": "plaza"
   }
 ]

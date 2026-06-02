@@ -12,12 +12,11 @@
  */
 
 const { PlusScraper } = require('../scrapers/plus');
-// As you add scrapers in Claude Code, import and register them here:
-// const { LitrakScraper } = require('../scrapers/litrak');
+const { LitrakScraper } = require('../scrapers/litrak');
 
 const SCRAPERS = {
   plus: PlusScraper,
-  // litrak: LitrakScraper,
+  litrak: LitrakScraper,
 };
 
 async function main() {

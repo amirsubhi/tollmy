@@ -3,13 +3,40 @@
   "concessionaire": "litrak",
   "system": "open",
   "currency": "MYR",
-  "effective_date": "2026-01-01",
-  "last_verified": "2026-01-01",
+  "effective_date": "2016-01-01",
+  "last_verified": "2026-06-02",
   "source": {
-    "url": "https://www.litrak.com.my",
-    "scraped_at": "2026-01-01T00:00:00+08:00"
+    "url": "https://litrak.com.my/our-highways/litrak/toll-fares/",
+    "scraped_at": "2026-06-02T13:15:55.287+00:00"
   },
   "fares": {
-    "LITRAK-LDP-KELANA": { "1": 2.10, "2": 4.20, "3": 6.30, "4": 2.10, "5": 2.10 }
+    "LITRAK-LDP-PENCHALA": {
+      "1": 2.1,
+      "2": 4.2,
+      "3": 6.3,
+      "4": 1.1,
+      "5": 1.6
+    },
+    "LITRAK-LDP-PJ": {
+      "1": 2.1,
+      "2": 4.2,
+      "3": 6.3,
+      "4": 1.1,
+      "5": 1.6
+    },
+    "LITRAK-LDP-PUCHONG-B": {
+      "1": 2.1,
+      "2": 4.2,
+      "3": 6.3,
+      "4": 1.1,
+      "5": 1.6
+    },
+    "LITRAK-LDP-PUCHONG-S": {
+      "1": 2.1,
+      "2": 4.2,
+      "3": 6.3,
+      "4": 1.1,
+      "5": 1.6
+    }
   }
 }
