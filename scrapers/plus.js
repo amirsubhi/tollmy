@@ -110,17 +110,25 @@ class PlusScraper extends ConcessionaireScraper {
   }
 
   async _get(from, to, apiClass) {
-    const res = await fetch(`${API_BASE}/${from}/${to}/${apiClass}`, {
-      headers: {
-        'User-Agent': this.userAgent,
-        'Origin': ORIGIN,
-        'Referer': `${ORIGIN}/`,
-        ...(this._cookie ? { Cookie: this._cookie } : {}),
-      },
-    });
-    if (!res.ok) throw new Error(`API ${from}→${to}/${apiClass}: HTTP ${res.status}`);
-    const text = (await res.text()).trim();
-    return text ? +text : null;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const res = await fetch(`${API_BASE}/${from}/${to}/${apiClass}`, {
+          headers: {
+            'User-Agent': this.userAgent,
+            'Origin': ORIGIN,
+            'Referer': `${ORIGIN}/`,
+            ...(this._cookie ? { Cookie: this._cookie } : {}),
+          },
+        });
+        if (!res.ok) throw new Error(`API ${from}→${to}/${apiClass}: HTTP ${res.status}`);
+        const text = (await res.text()).trim();
+        return text ? +text : null;
+      } catch (e) {
+        if (attempt === 3) throw e;
+        process.stdout.write(` [net-retry ${attempt}]`);
+        await new Promise(r => setTimeout(r, 2000 * attempt));
+      }
+    }
   }
 
   async scrape() {
