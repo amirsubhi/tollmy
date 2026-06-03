@@ -296,5 +296,110 @@
     "highway": "mex",
     "system": "open",
     "charging_type": "plaza"
+  },
+  {
+    "id": "KESAS-AWAN-BESAR-E",
+    "name": "Awan Besar East",
+    "highway": "kesas",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "KESAS-AWAN-BESAR-W",
+    "name": "Awan Besar West",
+    "highway": "kesas",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "KESAS-SUNWAY",
+    "name": "Sunway",
+    "highway": "kesas",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "KESAS-KEMUNING",
+    "name": "Kemuning",
+    "highway": "kesas",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "GCE-BUKIT-JELUTONG",
+    "name": "Bukit Jelutong",
+    "highway": "prolintas-gce",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "GCE-ELMINA",
+    "name": "Elmina",
+    "highway": "prolintas-gce",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "GCE-LAGONG",
+    "name": "Lagong",
+    "highway": "prolintas-gce",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "AKLEH-JALAN-DATUK-KERAMAT",
+    "name": "Jalan Datuk Keramat",
+    "highway": "prolintas-akleh",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LATAR-TAMAN-RIMBA-TEMPLER",
+    "name": "Taman Rimba Templer",
+    "highway": "latar",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LATAR-KUNDANG-BARAT",
+    "name": "Kundang Barat",
+    "highway": "latar",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LATAR-KUNDANG-TIMUR",
+    "name": "Kundang Timur",
+    "highway": "latar",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LATAR-IJOK",
+    "name": "Ijok",
+    "highway": "latar",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LATAR-KUANG-BARAT",
+    "name": "Kuang Barat",
+    "highway": "latar",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LATAR-KUANG-TIMUR",
+    "name": "Kuang Timur",
+    "highway": "latar",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LATAR-ECO-GRANDEUR",
+    "name": "Eco Grandeur",
+    "highway": "latar",
+    "system": "open",
+    "charging_type": "plaza"
   }
 ]

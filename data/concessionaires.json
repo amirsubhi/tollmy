@@ -23,7 +23,7 @@
   {
     "id": "prolintas",
     "name": "Projek Lintasan Kota Holdings (AKLEH, SILK, LKSA, etc.)",
-    "highways": ["prolintas-akleh", "prolintas-suke"],
+    "highways": ["prolintas-akleh", "prolintas-suke", "prolintas-gce"],
     "website": "https://www.prolintas.com.my",
     "status": "live"
   },
@@ -46,6 +46,13 @@
     "name": "KESAS Sdn Bhd (Shah Alam Expressway)",
     "highways": ["kesas"],
     "website": "https://www.kesas.com.my",
-    "status": "stub"
+    "status": "live"
+  },
+  {
+    "id": "latar",
+    "name": "KL-Kuala Selangor Expressway Berhad (KLSEB)",
+    "highways": ["latar"],
+    "website": "https://www.latar.com.my",
+    "status": "live"
   }
 ]

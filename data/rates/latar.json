@@ -1,0 +1,63 @@
+{
+  "highway": "latar",
+  "concessionaire": "latar",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2024-01-01",
+  "last_verified": "2026-06-03",
+  "source": {
+    "url": "https://www.latar.com.my/toll-rates",
+    "scraped_at": "2026-06-03T14:31:56.667+00:00"
+  },
+  "fares": {
+    "LATAR-TAMAN-RIMBA-TEMPLER": {
+      "1": 2.5,
+      "2": 5,
+      "3": 7.5,
+      "4": 1.3,
+      "5": 2
+    },
+    "LATAR-KUNDANG-BARAT": {
+      "1": 1.3,
+      "2": 2.6,
+      "3": 3.9,
+      "4": 0.7,
+      "5": 1.3
+    },
+    "LATAR-KUNDANG-TIMUR": {
+      "1": 1.3,
+      "2": 2.6,
+      "3": 3.9,
+      "4": 0.7,
+      "5": 1.3
+    },
+    "LATAR-IJOK": {
+      "1": 2.5,
+      "2": 5,
+      "3": 7.5,
+      "4": 1.3,
+      "5": 2
+    },
+    "LATAR-KUANG-BARAT": {
+      "1": 2.5,
+      "2": 5,
+      "3": 7.5,
+      "4": 1.3,
+      "5": 2
+    },
+    "LATAR-KUANG-TIMUR": {
+      "1": 2.5,
+      "2": 5,
+      "3": 7.5,
+      "4": 1.3,
+      "5": 2
+    },
+    "LATAR-ECO-GRANDEUR": {
+      "1": 2.5,
+      "2": 5,
+      "3": 7.5,
+      "4": 1.3,
+      "5": 2
+    }
+  }
+}

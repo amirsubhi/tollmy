@@ -1,0 +1,35 @@
+{
+  "highway": "prolintas-gce",
+  "concessionaire": "prolintas",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2022-10-19",
+  "last_verified": "2026-06-03",
+  "source": {
+    "url": "https://www.prolintas.com.my/gce/",
+    "scraped_at": "2026-06-03T14:31:59.192+00:00"
+  },
+  "fares": {
+    "GCE-BUKIT-JELUTONG": {
+      "1": 1.75,
+      "2": 3.8,
+      "3": 5.7,
+      "4": 0.83,
+      "5": 1.29
+    },
+    "GCE-ELMINA": {
+      "1": 1.75,
+      "2": 3.8,
+      "3": 5.7,
+      "4": 0.83,
+      "5": 1.29
+    },
+    "GCE-LAGONG": {
+      "1": 1.75,
+      "2": 3.8,
+      "3": 5.7,
+      "4": 0.83,
+      "5": 1.29
+    }
+  }
+}

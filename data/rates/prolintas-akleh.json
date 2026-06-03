@@ -1,0 +1,21 @@
+{
+  "highway": "prolintas-akleh",
+  "concessionaire": "prolintas",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2022-10-19",
+  "last_verified": "2026-06-03",
+  "source": {
+    "url": "https://www.prolintas.com.my/akleh/",
+    "scraped_at": "2026-06-03T14:32:01.714+00:00"
+  },
+  "fares": {
+    "AKLEH-JALAN-DATUK-KERAMAT": {
+      "1": 2.13,
+      "2": 7,
+      "3": 10.5,
+      "4": 1.53,
+      "5": 1.28
+    }
+  }
+}
