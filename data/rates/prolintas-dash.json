@@ -1,0 +1,35 @@
+{
+  "highway": "prolintas-dash",
+  "concessionaire": "prolintas",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2024-05-20",
+  "last_verified": "2026-06-03",
+  "source": {
+    "url": "https://www.prolintas.com.my/dash/",
+    "scraped_at": "2026-06-03T23:26:43.616+00:00"
+  },
+  "fares": {
+    "DASH-DENAI-ALAM": {
+      "1": 2.3,
+      "2": 4.6,
+      "3": 6.9,
+      "4": 1.2,
+      "5": 2.3
+    },
+    "DASH-KWASA-DAMANSARA": {
+      "1": 2.3,
+      "2": 4.6,
+      "3": 6.9,
+      "4": 1.2,
+      "5": 2.3
+    },
+    "DASH-KOTA-DAMANSARA": {
+      "1": 2.3,
+      "2": 4.6,
+      "3": 6.9,
+      "4": 1.2,
+      "5": 2.3
+    }
+  }
+}

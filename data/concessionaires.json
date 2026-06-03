@@ -2,14 +2,14 @@
   {
     "id": "plus",
     "name": "PLUS Malaysia Berhad",
-    "highways": ["plus-nse"],
+    "highways": ["plus-nse", "elite", "nkve"],
     "website": "https://www.plus.com.my",
     "status": "live"
   },
   {
     "id": "litrak",
     "name": "Lingkaran Trans Kota Sdn Bhd (LDP)",
-    "highways": ["litrak-ldp"],
+    "highways": ["litrak-ldp", "sprint"],
     "website": "https://www.litrak.com.my",
     "status": "live"
   },
@@ -23,7 +23,7 @@
   {
     "id": "prolintas",
     "name": "Projek Lintasan Kota Holdings (AKLEH, SILK, LKSA, etc.)",
-    "highways": ["prolintas-akleh", "prolintas-suke", "prolintas-gce"],
+    "highways": ["prolintas-akleh", "prolintas-suke", "prolintas-gce", "prolintas-silk", "prolintas-dash"],
     "website": "https://www.prolintas.com.my",
     "status": "live"
   },
@@ -53,6 +53,20 @@
     "name": "KL-Kuala Selangor Expressway Berhad (KLSEB)",
     "highways": ["latar"],
     "website": "https://www.latar.com.my",
+    "status": "live"
+  },
+  {
+    "id": "smart",
+    "name": "Syarikat Mengurus Air Banjir & Terowong Sdn Bhd",
+    "highways": ["smart"],
+    "website": "https://smarttunnel.com.my",
+    "status": "live"
+  },
+  {
+    "id": "jksb",
+    "name": "Jambatan Kedua Sdn Bhd",
+    "highways": ["penang2"],
+    "website": "https://www.jambatankedua.com.my",
     "status": "live"
   }
 ]

@@ -1,0 +1,28 @@
+{
+  "highway": "penang2",
+  "concessionaire": "jksb",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2020-02-01",
+  "last_verified": "2026-06-03",
+  "source": {
+    "url": "https://www.jambatankedua.com.my/public/",
+    "scraped_at": "2026-06-03T23:28:23.132+00:00"
+  },
+  "fares": {
+    "JKSB-JK2PP": {
+      "1": 5.74,
+      "2": 30.5,
+      "3": 70.1,
+      "4": 8.5,
+      "5": 26.2
+    },
+    "JKSB-BANDAR-CASSIA": {
+      "1": 0.6,
+      "2": 0.9,
+      "3": 1.2,
+      "4": 0.3,
+      "5": 0.5
+    }
+  }
+}

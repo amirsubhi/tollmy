@@ -1,0 +1,35 @@
+{
+  "highway": "sprint",
+  "concessionaire": "litrak",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2021-12-14",
+  "last_verified": "2026-06-03",
+  "source": {
+    "url": "https://litrak.com.my/our-highways/sprint/toll-fares/",
+    "scraped_at": "2026-06-03T23:26:39.043+00:00"
+  },
+  "fares": {
+    "SPRINT-DAMANSARA": {
+      "1": 2,
+      "2": 4,
+      "3": 6,
+      "4": 1,
+      "5": 1
+    },
+    "SPRINT-PANTAI": {
+      "1": 2.5,
+      "2": 7,
+      "3": 10.5,
+      "4": 1.8,
+      "5": 1.5
+    },
+    "SPRINT-BUKIT-KIARA": {
+      "1": 3,
+      "2": 6,
+      "3": 9,
+      "4": 1.5,
+      "5": 2
+    }
+  }
+}

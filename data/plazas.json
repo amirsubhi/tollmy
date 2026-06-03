@@ -401,5 +401,243 @@
     "highway": "latar",
     "system": "open",
     "charging_type": "plaza"
+  },
+  {
+    "id": "SPRINT-DAMANSARA",
+    "name": "Toll Plaza Damansara",
+    "highway": "sprint",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SPRINT-PANTAI",
+    "name": "Toll Plaza Pantai",
+    "highway": "sprint",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SPRINT-BUKIT-KIARA",
+    "name": "Toll Plaza Bukit Kiara",
+    "highway": "sprint",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SILK-SUNGAI-BALAK",
+    "name": "Sungai Balak",
+    "highway": "prolintas-silk",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SILK-SUNGAI-RAMAL",
+    "name": "Sungai Ramal",
+    "highway": "prolintas-silk",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SILK-BUKIT-KAJANG",
+    "name": "Bukit Kajang",
+    "highway": "prolintas-silk",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SILK-SUNGAI-LONG",
+    "name": "Sungai Long",
+    "highway": "prolintas-silk",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "DASH-DENAI-ALAM",
+    "name": "Denai Alam",
+    "highway": "prolintas-dash",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "DASH-KWASA-DAMANSARA",
+    "name": "Kwasa Damansara",
+    "highway": "prolintas-dash",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "DASH-KOTA-DAMANSARA",
+    "name": "Kota Damansara",
+    "highway": "prolintas-dash",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SMART-TUNNEL",
+    "name": "SMART Tunnel",
+    "highway": "smart",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "JKSB-JK2PP",
+    "name": "Jambatan Kedua Main Plaza",
+    "highway": "penang2",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "JKSB-BANDAR-CASSIA",
+    "name": "Bandar Cassia",
+    "highway": "penang2",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-SBI",
+    "name": "Sungai Besi",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-EBN",
+    "name": "Ebor Utara",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-EBS",
+    "name": "Ebor Selatan",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-SEA",
+    "name": "Seafield",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-USJ",
+    "name": "USJ",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-PHT",
+    "name": "Putra Heights",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-BSP",
+    "name": "Bandar Saujana Putra",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-PTJ",
+    "name": "Putrajaya",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-BGC",
+    "name": "Bandar Gamuda Cove",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-KLA",
+    "name": "KLIA",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-BSR",
+    "name": "Bandar Serenia",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "ELITE-BBN",
+    "name": "Bandar Baru Nilai",
+    "highway": "elite",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-BKR",
+    "name": "Bukit Raja",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-STA",
+    "name": "Setia Alam",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-SHA",
+    "name": "Shah Alam",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-SBG",
+    "name": "Subang",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-DMR",
+    "name": "Damansara",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-KDR",
+    "name": "Kota Damansara",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-SGB",
+    "name": "Sungai Buloh",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-HSB",
+    "name": "Hospital Sungai Buloh",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "NKVE-JLD",
+    "name": "Jalan Duta",
+    "highway": "nkve",
+    "system": "closed",
+    "charging_type": "plaza"
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "highway": "smart",
+  "concessionaire": "smart",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2015-10-15",
+  "last_verified": "2026-06-03",
+  "source": {
+    "url": "https://smarttunnel.com.my/toll-rate/",
+    "scraped_at": "2026-06-03T23:26:43.720+00:00"
+  },
+  "fares": {
+    "SMART-TUNNEL": {
+      "1": 3,
+      "2": 4,
+      "4": 3
+    }
+  }
+}
