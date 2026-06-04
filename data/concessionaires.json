@@ -2,7 +2,7 @@
   {
     "id": "plus",
     "name": "PLUS Malaysia Berhad",
-    "highways": ["plus-nse", "elite", "nkve"],
+    "highways": ["plus-nse", "elite", "nkve", "linkedua"],
     "website": "https://www.plus.com.my",
     "status": "live"
   },

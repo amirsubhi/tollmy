@@ -891,5 +891,33 @@
     "highway": "ekve",
     "system": "closed",
     "charging_type": "plaza"
+  },
+  {
+    "id": "LINKEDUA-SNU",
+    "name": "Senai Utara",
+    "highway": "linkedua",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LINKEDUA-TLK",
+    "name": "Lima Kedai",
+    "highway": "linkedua",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LINKEDUA-TTK",
+    "name": "Tanjung Kupang",
+    "highway": "linkedua",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LINKEDUA-TTP",
+    "name": "Perling",
+    "highway": "linkedua",
+    "system": "closed",
+    "charging_type": "plaza"
   }
 ]

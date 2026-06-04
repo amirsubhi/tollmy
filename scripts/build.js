@@ -36,6 +36,7 @@ const { SkveScraper } = require('../scrapers/skve');
 const { SdeScraper } = require('../scrapers/sde');
 const { WceScraper } = require('../scrapers/wce');
 const { EkveScraper } = require('../scrapers/ekve');
+const { LinkeduaScraper } = require('../scrapers/linkedua');
 
 const SCRAPERS = {
   plus: PlusScraper,
@@ -63,6 +64,7 @@ const SCRAPERS = {
   sde: SdeScraper,
   wce: WceScraper,
   ekve: EkveScraper,
+  linkedua: LinkeduaScraper,
 };
 
 async function main() {
