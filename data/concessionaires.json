@@ -103,5 +103,12 @@
     "highways": ["ekve"],
     "website": "https://www.ekve.com.my",
     "status": "live"
+  },
+  {
+    "id": "grandsaga",
+    "name": "Grand Saga Sdn Bhd",
+    "highways": ["cke"],
+    "website": "https://grandsaga.com.my",
+    "status": "live"
   }
 ]

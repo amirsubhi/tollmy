@@ -919,5 +919,19 @@
     "highway": "linkedua",
     "system": "closed",
     "charging_type": "plaza"
+  },
+  {
+    "id": "GRANDSAGA-BATU-9",
+    "name": "Batu 9 (Kajang Bound)",
+    "highway": "cke",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "GRANDSAGA-BATU-11",
+    "name": "Batu 11 (KL Bound)",
+    "highway": "cke",
+    "system": "open",
+    "charging_type": "plaza"
   }
 ]
