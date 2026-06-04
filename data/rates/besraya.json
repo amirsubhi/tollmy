@@ -1,0 +1,28 @@
+{
+  "highway": "besraya",
+  "concessionaire": "ijm",
+  "system": "open",
+  "currency": "MYR",
+  "effective_date": "2023-01-01",
+  "last_verified": "2026-06-04",
+  "source": {
+    "url": "https://ijmtolldiv.com/besraya/",
+    "scraped_at": "2026-06-04T02:41:27.128+00:00"
+  },
+  "fares": {
+    "BESRAYA-LOKE-YEW": {
+      "1": 1.85,
+      "2": 3.7,
+      "3": 3.7,
+      "4": 1.85,
+      "5": 1.85
+    },
+    "BESRAYA-MINES": {
+      "1": 1.85,
+      "2": 3.7,
+      "3": 3.7,
+      "4": 1.85,
+      "5": 1.3
+    }
+  }
+}

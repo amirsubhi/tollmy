@@ -30,6 +30,9 @@ const { SmartScraper } = require('../scrapers/smart');
 const { Penang2Scraper } = require('../scrapers/penang2');
 const { EliteScraper } = require('../scrapers/elite');
 const { NkveScraper } = require('../scrapers/nkve');
+const { BesrayaScraper } = require('../scrapers/besraya');
+const { LekasScraper } = require('../scrapers/lekas');
+const { SkveScraper } = require('../scrapers/skve');
 
 const SCRAPERS = {
   plus: PlusScraper,
@@ -51,6 +54,9 @@ const SCRAPERS = {
   penang2: Penang2Scraper,
   elite: EliteScraper,
   nkve: NkveScraper,
+  besraya: BesrayaScraper,
+  lekas: LekasScraper,
+  skve: SkveScraper,
 };
 
 async function main() {

@@ -639,5 +639,103 @@
     "highway": "nkve",
     "system": "closed",
     "charging_type": "plaza"
+  },
+  {
+    "id": "BESRAYA-LOKE-YEW",
+    "name": "Loke Yew",
+    "highway": "besraya",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "BESRAYA-MINES",
+    "name": "Mines",
+    "highway": "besraya",
+    "system": "open",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LEKAS-KAJANG-SELATAN",
+    "name": "Kajang Selatan",
+    "highway": "lekas",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LEKAS-SEMENYIH",
+    "name": "Semenyih",
+    "highway": "lekas",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LEKAS-ECO-MAJESTIC",
+    "name": "Eco Majestic",
+    "highway": "lekas",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LEKAS-PAJAM",
+    "name": "Pajam",
+    "highway": "lekas",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LEKAS-MANTIN",
+    "name": "Mantin",
+    "highway": "lekas",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "LEKAS-SETUL",
+    "name": "Setul",
+    "highway": "lekas",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SKVE-AYH",
+    "name": "Ayer Hitam",
+    "highway": "skve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SKVE-SJP",
+    "name": "Saujana Putra",
+    "highway": "skve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SKVE-SAE",
+    "name": "SAE (WCE Junction)",
+    "highway": "skve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SKVE-WCE",
+    "name": "Banting (WCE Junction)",
+    "highway": "skve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SKVE-TPG",
+    "name": "Teluk Panglima Garang",
+    "highway": "skve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SKVE-PUI",
+    "name": "Pulau Indah",
+    "highway": "skve",
+    "system": "closed",
+    "charging_type": "plaza"
   }
 ]

@@ -68,5 +68,19 @@
     "highways": ["penang2"],
     "website": "https://www.jambatankedua.com.my",
     "status": "live"
+  },
+  {
+    "id": "ijm",
+    "name": "IJM Corporation Berhad",
+    "highways": ["besraya", "lekas"],
+    "website": "https://ijmtolldiv.com",
+    "status": "live"
+  },
+  {
+    "id": "skve",
+    "name": "SKVE Holdings Sdn Bhd",
+    "highways": ["skve"],
+    "website": "https://www.skve.com.my",
+    "status": "live"
   }
 ]
