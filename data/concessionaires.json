@@ -82,5 +82,26 @@
     "highways": ["skve"],
     "website": "https://www.skve.com.my",
     "status": "live"
+  },
+  {
+    "id": "sdeb",
+    "name": "Senai-Desaru Expressway Berhad",
+    "highways": ["sde"],
+    "website": "https://www.sde22.com",
+    "status": "live"
+  },
+  {
+    "id": "wce",
+    "name": "WCE Holdings Berhad",
+    "highways": ["wce"],
+    "website": "https://wce.com.my",
+    "status": "live"
+  },
+  {
+    "id": "ekve",
+    "name": "EKVE Sdn Bhd",
+    "highways": ["ekve"],
+    "website": "https://www.ekve.com.my",
+    "status": "live"
   }
 ]

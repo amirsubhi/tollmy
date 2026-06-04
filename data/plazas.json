@@ -737,5 +737,159 @@
     "highway": "skve",
     "system": "closed",
     "charging_type": "plaza"
+  },
+  {
+    "id": "SDE-SENAI",
+    "name": "Senai",
+    "highway": "sde",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SDE-ULU-TIRAM",
+    "name": "Ulu Tiram",
+    "highway": "sde",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SDE-CAHAYA-BARU",
+    "name": "Cahaya Baru",
+    "highway": "sde",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "SDE-PENAWAR",
+    "name": "Penawar",
+    "highway": "sde",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-BTG",
+    "name": "Banting",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-SAE",
+    "name": "SAE",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-BBS",
+    "name": "Bandar Bukit Raja Selatan",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-BBU",
+    "name": "Bandar Bukit Raja Utara",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-AJW",
+    "name": "Assam Jawa",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-HMT",
+    "name": "Hutan Melintang",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-TLI",
+    "name": "Teluk Intan",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-LKR",
+    "name": "Kg Lekir",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-STW",
+    "name": "Sitiawan",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-STN",
+    "name": "Sitiawan Utara",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-CKC",
+    "name": "Changkat Cermin",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-BRS",
+    "name": "Beruas",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-TRG",
+    "name": "Trong",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "WCE-TPS",
+    "name": "Taiping Selatan",
+    "highway": "wce",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "EKVE-SUNGAI-LONG",
+    "name": "Sungai Long",
+    "highway": "ekve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "EKVE-BANDAR-MAHKOTA-CHERAS",
+    "name": "Bandar Mahkota Cheras",
+    "highway": "ekve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "EKVE-HULU-LANGAT",
+    "name": "Hulu Langat",
+    "highway": "ekve",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "EKVE-AMPANG",
+    "name": "Ampang",
+    "highway": "ekve",
+    "system": "closed",
+    "charging_type": "plaza"
   }
 ]
