@@ -74,6 +74,8 @@ class LekasScraper extends ConcessionaireScraper {
   }
 
   async scrape() {
+    const daysSince = (Date.now() - new Date('2026-06-04').getTime()) / 86400000;
+    if (daysSince > 90) process.stderr.write(`\n  WARNING: LEKAS fares last verified ${Math.floor(daysSince)} days ago — re-verify against operator source.\n`);
     return { ...FARES };
   }
 }

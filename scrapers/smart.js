@@ -35,6 +35,8 @@ class SmartScraper extends ConcessionaireScraper {
   }
 
   async scrape() {
+    const daysSince = (Date.now() - new Date('2026-06-04').getTime()) / 86400000;
+    if (daysSince > 90) process.stderr.write(`\n  WARNING: SMART Tunnel fares last verified ${Math.floor(daysSince)} days ago — re-verify against operator source.\n`);
     const fares = {};
     for (const id of PLAZAS) fares[id] = FARES;
     return fares;
