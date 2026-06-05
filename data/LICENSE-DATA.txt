@@ -2,15 +2,25 @@ The contents of the data/ directory are licensed under the
 Open Database License (ODbL) v1.0.
 
 You are free to share and adapt this data, provided that you:
-  - Attribute the malaysia-toll project,
+  - Attribute the tollmy project (https://github.com/amirsubhi/tollmy),
   - Keep any adapted database open under ODbL (share-alike), and
-  - Keep any redistributed version open.
+  - Do not apply technical or legal measures that restrict access to
+    any redistributed or adapted version.
 
-Full text: https://opendatacommons.org/licenses/odbl/1-0/
+Full licence text: https://opendatacommons.org/licenses/odbl/1-0/
 
-Note on fare data: individual fare amounts are facts and are not themselves
-copyrightable. This licence governs the compiled database. Toll rates are
-sourced from each concessionaire's published schedules; see each rate file's
-`source` field for provenance. This dataset is provided WITHOUT WARRANTY and
-may be incomplete or out of date — verify against the operator before relying
-on it for payment.
+─────────────────────────────────────────────────────────────────────
+DATA WARRANTY DISCLAIMER
+
+This database is provided "AS IS", without warranty of any kind.
+Individual fare amounts are facts sourced from publicly published
+operator schedules (see the source.url and last_verified fields in
+each rate file). They may be incomplete, outdated, or contain errors.
+
+VERIFY ALL FARES AGAINST THE OPERATOR'S OWN CALCULATOR BEFORE
+MAKING ANY PAYMENT DECISION. The maintainers accept no liability
+for financial loss or incorrect payment arising from use of this data.
+
+This project is not affiliated with PLUS Malaysia, LLM, or any
+concessionaire or agency of the Malaysian Government.
+─────────────────────────────────────────────────────────────────────

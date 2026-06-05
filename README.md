@@ -288,8 +288,8 @@ To add a new concessionaire, see [CLAUDE.md — How to add a concessionaire](./C
 
 <div align="center">
 
-Fares are sourced from each operator's published schedule (see `source.url` and `last_verified` in every rate file).<br>
-Always verify against the operator's own calculator before relying on any fare for payment.<br>
-Not affiliated with PLUS, Prolintas, or any concessionaire.
+Fares are sourced from each operator's published schedule and may be incomplete or outdated.<br>
+**Always verify against the operator's own calculator before relying on any fare for payment.**<br>
+Not affiliated with PLUS, Prolintas, or any concessionaire. · [Full disclaimer →](./DISCLAIMER.md)
 
 </div>
