@@ -1,4 +1,4 @@
-<![CDATA[<div align="center">
+<div align="center">
 
 # tollmy
 
@@ -100,8 +100,7 @@ data/
 
 PLUS NSE, LPT, ELITE, NKVE, Linkedua, LEKAS, SKVE, SDE, EKVE, WCE.
 
-```jsonc
-// data/rates/plus-nse.json (excerpt)
+```json
 {
   "highway": "plus-nse",
   "concessionaire": "plus",
@@ -114,13 +113,13 @@ PLUS NSE, LPT, ELITE, NKVE, Linkedua, LEKAS, SKVE, SDE, EKVE, WCE.
     "scraped_at": "2026-06-03T06:12:44.422+00:00"
   },
   "fares": {
-    "PLUS-NSE-JRU": {              // entry: Juru
-      "PLUS-NSE-IPU": {            // exit:  Ipoh Utara
-        "1": 13.78,                // car
-        "2": 25.20,                // 2-axle lorry
-        "3": 33.60,                // 3-axle lorry
-        "4": 6.89,                 // taxi
-        "5": 10.33                 // bus
+    "PLUS-NSE-JRU": {
+      "PLUS-NSE-IPU": {
+        "1": 13.78,
+        "2": 25.20,
+        "3": 33.60,
+        "4": 6.89,
+        "5": 10.33
       }
     }
   }
@@ -131,8 +130,7 @@ PLUS NSE, LPT, ELITE, NKVE, Linkedua, LEKAS, SKVE, SDE, EKVE, WCE.
 
 LDP, SPRINT, DUKE, KESAS, LATAR, MEX, and all other urban highways.
 
-```jsonc
-// data/rates/litrak-ldp.json (excerpt)
+```json
 {
   "highway": "litrak-ldp",
   "system": "open",
@@ -148,7 +146,7 @@ LDP, SPRINT, DUKE, KESAS, LATAR, MEX, and all other urban highways.
 
 **Vehicle classes:** `1` car/SUV · `2` 2-axle lorry · `3` 3-axle lorry · `4` taxi · `5` bus. Motorcycles are generally free and not modelled.
 
-**Promotions** are a separate dated layer — they never mutate base rates. They are applied at calculation time against the moment of travel.
+**Promotions** are a separate dated layer — they never mutate base rates, and are applied at calculation time against the moment of travel.
 
 ---
 
@@ -159,8 +157,8 @@ Start the server: `npm run api` (default port 3000)
 | Endpoint | Description |
 |----------|-------------|
 | `GET /v1/highways` | List all highways and concessionaires |
-| `GET /v1/plazas?highway=plus-nse` | List plazas, optionally filtered |
-| `GET /v1/promotions?active=true` | List promotions (all or currently active) |
+| `GET /v1/plazas?highway=plus-nse` | List plazas, optionally filtered by highway |
+| `GET /v1/promotions?active=true` | List promotions (all, or currently active only) |
 | `GET /v1/calculate?...` | Compute a fare with promotions applied |
 
 ### Examples
@@ -225,11 +223,10 @@ GET /v1/calculate?highway=litrak-ldp&entry=LITRAK-LDP-PENCHALA&class=1
 }
 ```
 
-**With festive pricing** — pass `datetime` in ISO 8601 MYT to see promotions applied:
+**With festive pricing** — pass `datetime` in ISO 8601 MYT:
 
 ```
-GET /v1/calculate?highway=plus-nse&entry=PLUS-NSE-JRU&exit=PLUS-NSE-IPU&class=1
-    &datetime=2026-12-25T10:00:00+08:00
+GET /v1/calculate?highway=plus-nse&entry=PLUS-NSE-JRU&exit=PLUS-NSE-IPU&class=1&datetime=2026-12-25T10:00:00+08:00
 ```
 
 ```json
@@ -256,7 +253,7 @@ const result = calculate({
   exit:  'PLUS-NSE-IPU',
   vehicleClass: 1,
   promotions,
-  at: new Date(),        // defaults to now; pass a future Date for festive pricing
+  at: new Date(),   // defaults to now; pass a future Date for festive pricing
 });
 // → { base: 13.78, final: 13.78, currency: 'MYR', applied: [] }
 ```
@@ -265,27 +262,18 @@ const result = calculate({
 
 ## Updating data
 
-Each scraper lives in `scrapers/` and implements a single `scrape()` method returning the fares object. The base class handles provenance, validation, and diffing.
+Each scraper lives in `scrapers/` and implements a single `scrape()` method returning the fares object. The base class handles provenance, validation, and diffing. `scrapers/plus.js` is the fully-worked reference.
 
 ```bash
-# Dry-run a single scraper — shows what would change, writes nothing
-node scripts/build.js --only plus
-
-# Run and write to data/rates/
-node scripts/build.js --only plus --write
-
-# Run all scrapers
-node scripts/build.js --write
-
-# Validate the entire dataset (run this before every commit)
-node scripts/validate.js
+node scripts/build.js --only plus          # dry-run one scraper, shows diff
+node scripts/build.js --only plus --write  # run and write to data/rates/
+node scripts/build.js --write              # run all scrapers
+node scripts/validate.js                   # validate everything (CI gate)
 ```
 
 **Update cadence:** on-announcement (rate revisions, new promotions) + quarterly re-verify sweep.
 
-To add a new concessionaire, see [CLAUDE.md — How to add a concessionaire](./CLAUDE.md#how-to-add-a-concessionaire). `scrapers/plus.js` is the fully-worked reference implementation.
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
+To add a new concessionaire, see [CLAUDE.md — How to add a concessionaire](./CLAUDE.md#how-to-add-a-concessionaire). See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
 
 ---
 
@@ -305,4 +293,3 @@ Always verify against the operator's own calculator before relying on any fare f
 Not affiliated with PLUS, Prolintas, or any concessionaire.
 
 </div>
-]]>
