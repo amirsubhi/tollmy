@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
+    # Mount data/ so you can update fares without rebuilding the image.
+    # After running scrapers, restart the container to pick up changes.
+    volumes:
+      - ./data:/app/data:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/v1/highways"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

@@ -1,0 +1,367 @@
+openapi: 3.1.0
+
+info:
+  title: tollmy API
+  version: 1.0.0
+  description: |
+    Read-only HTTP API over the **tollmy** open dataset of Malaysian highway toll fares.
+
+    All fares are in **MYR**. Promotions (festive discounts) are automatically applied
+    when a `datetime` is supplied. The dataset is the source of truth — restart the
+    server after updating `data/` to pick up new fares.
+  license:
+    name: MIT (code) / ODbL v1.0 (data)
+    url: https://github.com/amirsubhi/tollmy
+
+servers:
+  - url: http://localhost:3000
+    description: Local development
+
+tags:
+  - name: reference
+    description: Dataset reference endpoints (no calculation)
+  - name: calculate
+    description: Fare calculation with promotion layering
+
+paths:
+  /v1/highways:
+    get:
+      tags: [reference]
+      summary: List all highways
+      description: Returns all 31 highways with their concessionaire, system type, and current status.
+      responses:
+        '200':
+          description: Array of highway records
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Highway'
+              example:
+                - highway: plus-nse
+                  concessionaire: plus
+                  concessionaire_name: PLUS Malaysia Berhad
+                  system: closed
+                  effective_date: '2026-01-01'
+                  last_verified: '2026-06-03'
+                  status: live
+
+  /v1/plazas:
+    get:
+      tags: [reference]
+      summary: List plazas
+      description: Returns all 224 plazas. Filter by highway to get only that highway's plazas.
+      parameters:
+        - name: highway
+          in: query
+          description: Filter to a specific highway (e.g. `plus-nse`, `litrak-ldp`)
+          required: false
+          schema:
+            type: string
+            maxLength: 60
+            example: plus-nse
+      responses:
+        '200':
+          description: Array of plaza records
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Plaza'
+              example:
+                - id: PLUS-NSE-JRU
+                  name: Juru
+                  highway: plus-nse
+                  system: closed
+                  charging_type: plaza
+                  lat: 5.3361
+                  lon: 100.4569
+
+  /v1/promotions:
+    get:
+      tags: [reference]
+      summary: List promotions
+      description: Returns all promotions. Use `active=true` to filter to promotions valid right now.
+      parameters:
+        - name: active
+          in: query
+          description: If `true`, return only promotions whose window covers the current time
+          required: false
+          schema:
+            type: string
+            enum: ['true', 'false']
+      responses:
+        '200':
+          description: Array of promotion records
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Promotion'
+
+  /v1/calculate:
+    get:
+      tags: [calculate]
+      summary: Calculate a toll fare
+      description: |
+        Compute the toll fare for a journey, with any applicable promotions applied.
+
+        - **Closed systems** (PLUS NSE, LPT, ELITE, …): supply both `entry` and `exit`.
+        - **Open systems** (LDP, SPRINT, …): supply only `entry` (the plaza you pass through).
+        - Pass `datetime` in ISO 8601 with a UTC offset to see festive pricing at a specific moment.
+      parameters:
+        - name: highway
+          in: query
+          required: true
+          description: Highway ID (e.g. `plus-nse`, `litrak-ldp`)
+          schema:
+            type: string
+            maxLength: 60
+            example: plus-nse
+        - name: entry
+          in: query
+          required: true
+          description: Entry plaza ID (e.g. `PLUS-NSE-JRU`)
+          schema:
+            type: string
+            maxLength: 60
+            example: PLUS-NSE-JRU
+        - name: exit
+          in: query
+          required: false
+          description: Exit plaza ID — required for closed systems (e.g. `PLUS-NSE-IPU`)
+          schema:
+            type: string
+            maxLength: 60
+            example: PLUS-NSE-IPU
+        - name: class
+          in: query
+          required: true
+          description: Vehicle class (1=car, 2=2-axle lorry, 3=3-axle lorry, 4=taxi, 5=bus)
+          schema:
+            type: string
+            enum: ['1', '2', '3', '4', '5']
+            example: '1'
+        - name: datetime
+          in: query
+          required: false
+          description: |
+            Travel datetime in ISO 8601. **Must include a UTC offset** — use `+08:00` for MYT.
+            Defaults to the current server time if omitted.
+          schema:
+            type: string
+            format: date-time
+            example: '2026-12-25T10:00:00+08:00'
+      responses:
+        '200':
+          description: Fare result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FareResult'
+              examples:
+                closed_no_promo:
+                  summary: PLUS NSE — Juru → Ipoh Utara, Class 1
+                  value:
+                    highway: plus-nse
+                    system: closed
+                    entry: PLUS-NSE-JRU
+                    exit: PLUS-NSE-IPU
+                    vehicle_class: '1'
+                    at: '2026-06-05T08:00:00.000Z'
+                    base: 13.78
+                    final: 13.78
+                    currency: MYR
+                    applied: []
+                    data_last_verified: '2026-06-03'
+                open_no_promo:
+                  summary: LDP — Penchala plaza, Class 1
+                  value:
+                    highway: litrak-ldp
+                    system: open
+                    entry: LITRAK-LDP-PENCHALA
+                    exit: null
+                    vehicle_class: '1'
+                    at: '2026-06-05T08:00:00.000Z'
+                    base: 2.10
+                    final: 2.10
+                    currency: MYR
+                    applied: []
+                    data_last_verified: '2026-06-03'
+                with_promotion:
+                  summary: With an active festive discount
+                  value:
+                    highway: plus-nse
+                    system: closed
+                    entry: PLUS-NSE-JRU
+                    exit: PLUS-NSE-IPU
+                    vehicle_class: '1'
+                    at: '2026-12-25T10:00:00.000+08:00'
+                    base: 13.78
+                    final: 11.30
+                    currency: MYR
+                    applied:
+                      - id: hari-raya-2026
+                        label: Hari Raya 50% discount
+                        discount: 2.48
+                    data_last_verified: '2026-06-03'
+        '400':
+          description: Invalid or missing parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              examples:
+                missing_params:
+                  value: { error: 'highway, entry and class are required' }
+                bad_class:
+                  value: { error: 'class must be 1, 2, 3, 4, or 5' }
+                missing_exit:
+                  value: { error: 'exit is required for closed-system highways' }
+        '404':
+          description: Unknown highway or no fare for that pair
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '429':
+          description: Rate limit exceeded (200 requests per IP per 15 minutes)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: too many requests — please slow down
+
+components:
+  schemas:
+    Highway:
+      type: object
+      properties:
+        highway:
+          type: string
+          description: Highway identifier
+          example: plus-nse
+        concessionaire:
+          type: string
+          example: plus
+        concessionaire_name:
+          type: string
+          example: PLUS Malaysia Berhad
+        system:
+          type: string
+          enum: [open, closed]
+        effective_date:
+          type: string
+          format: date
+          nullable: true
+        last_verified:
+          type: string
+          format: date
+          nullable: true
+        status:
+          type: string
+          enum: [live, stub]
+
+    Plaza:
+      type: object
+      properties:
+        id:
+          type: string
+          example: PLUS-NSE-JRU
+        name:
+          type: string
+          example: Juru
+        highway:
+          type: string
+          example: plus-nse
+        system:
+          type: string
+          enum: [open, closed]
+        charging_type:
+          type: string
+          example: plaza
+        lat:
+          type: number
+          format: float
+          nullable: true
+          example: 5.3361
+        lon:
+          type: number
+          format: float
+          nullable: true
+          example: 100.4569
+
+    Promotion:
+      type: object
+      properties:
+        id:
+          type: string
+        label:
+          type: string
+        highways:
+          type: array
+          items:
+            type: string
+        discount_pct:
+          type: number
+        starts:
+          type: string
+          format: date-time
+        ends:
+          type: string
+          format: date-time
+
+    FareResult:
+      type: object
+      properties:
+        highway:
+          type: string
+        system:
+          type: string
+          enum: [open, closed]
+        entry:
+          type: string
+        exit:
+          type: string
+          nullable: true
+        vehicle_class:
+          type: string
+          enum: ['1', '2', '3', '4', '5']
+        at:
+          type: string
+          format: date-time
+        base:
+          type: number
+          description: Base fare before any promotions (MYR)
+        final:
+          type: number
+          description: Final fare after promotions applied (MYR)
+        currency:
+          type: string
+          example: MYR
+        applied:
+          type: array
+          description: Promotions that were applied (empty if none)
+          items:
+            type: object
+            properties:
+              id:
+                type: string
+              label:
+                type: string
+              discount:
+                type: number
+        data_last_verified:
+          type: string
+          format: date
+          nullable: true
+
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
