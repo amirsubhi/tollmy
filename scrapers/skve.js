@@ -24,7 +24,7 @@ class SkveScraper extends ConcessionaireScraper {
       highway: 'skve',
       system: 'closed',
       sourceUrl: 'https://www.skve.com.my/toll-fare-calculator',
-      effectiveDate: '2024-01-01', // effective date unconfirmed; update once verified
+      effectiveDate: '2015-10-15', // fares revised w.e.f. 15 Oct 2015; increases deferred by govt through 2026
     });
   }
 

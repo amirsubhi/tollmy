@@ -43,7 +43,7 @@ class LatarScraper extends ConcessionaireScraper {
       highway: 'latar',
       system: 'open',
       sourceUrl: TOLL_RATES_URL,
-      effectiveDate: '2024-01-01', // effective date unconfirmed; update once verified
+      effectiveDate: '2015-10-15', // standard plazas raised to RM2.50 w.e.f. 15 Oct 2015; Kundang plazas at RM1.30 since 1 Jan 2015
     });
   }
 

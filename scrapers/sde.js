@@ -51,7 +51,7 @@ class SdeScraper extends ConcessionaireScraper {
       highway: 'sde',
       system: 'closed',
       sourceUrl: 'https://www.sde22.com/toll-fare',
-      effectiveDate: '2024-01-01', // effective date unconfirmed; update once verified
+      effectiveDate: '2015-10-15', // per-plaza rates revised w.e.f. 15 Oct 2015
     });
   }
 

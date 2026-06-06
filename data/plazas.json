@@ -22,63 +22,81 @@
     "name": "Ipoh Utara",
     "highway": "plus-nse",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 4.6643,
+    "lon": 101.0799
   },
   {
     "id": "LITRAK-LDP-PENCHALA",
     "name": "Penchala",
     "highway": "litrak-ldp",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1643,
+    "lon": 101.6429
   },
   {
     "id": "LITRAK-LDP-PJ",
     "name": "Petaling Jaya",
     "highway": "litrak-ldp",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0605,
+    "lon": 101.6136
   },
   {
     "id": "LITRAK-LDP-PUCHONG-B",
     "name": "Puchong Barat",
     "highway": "litrak-ldp",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0209,
+    "lon": 101.6023
   },
   {
     "id": "LITRAK-LDP-PUCHONG-S",
     "name": "Puchong Selatan",
     "highway": "litrak-ldp",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.9813,
+    "lon": 101.6363
   },
   {
     "id": "DUKE-AYER-PANAS",
     "name": "Ayer Panas",
     "highway": "duke",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1857,
+    "lon": 101.7134
   },
   {
     "id": "DUKE-BATU",
     "name": "Batu",
     "highway": "duke",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1917,
+    "lon": 101.675
   },
   {
     "id": "DUKE-SEGAMBUT",
     "name": "Segambut",
     "highway": "duke",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1903,
+    "lon": 101.6555
   },
   {
     "id": "DUKE-SENTUL-PASAR",
     "name": "Sentul Pasar",
     "highway": "duke",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1965,
+    "lon": 101.6995
   },
   {
     "id": "DUKE-SENTUL-PASAR-T",
@@ -134,35 +152,45 @@
     "name": "Gombak",
     "highway": "klk",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.242,
+    "lon": 101.7272
   },
   {
     "id": "KLK-BENTONG",
     "name": "Bentong",
     "highway": "klk",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.4437,
+    "lon": 102.0275
   },
   {
     "id": "LPT-KARAK",
     "name": "Karak",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.4437,
+    "lon": 102.0275
   },
   {
     "id": "LPT-LANCHANG",
     "name": "Lanchang",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.5231,
+    "lon": 102.1735
   },
   {
     "id": "LPT-TEMERLOH",
     "name": "Temerloh",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.5044,
+    "lon": 102.4041
   },
   {
     "id": "LPT-CHENOR",
@@ -176,7 +204,9 @@
     "name": "Maran",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.6044,
+    "lon": 102.7878
   },
   {
     "id": "LPT-SRI-JAYA",
@@ -197,14 +227,18 @@
     "name": "Kuantan",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.7381,
+    "lon": 103.116
   },
   {
     "id": "LPT-JABOR",
     "name": "Jabor",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.9455,
+    "lon": 103.3176
   },
   {
     "id": "LPT-CHENEH",
@@ -246,7 +280,9 @@
     "name": "Kuala Dungun",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 4.7419,
+    "lon": 103.3286
   },
   {
     "id": "LPT-BUKIT-BESI",
@@ -260,7 +296,9 @@
     "name": "Ajil",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 5.0875,
+    "lon": 103.074
   },
   {
     "id": "LPT-TELEMUNG",
@@ -274,21 +312,27 @@
     "name": "Kuala Terengganu",
     "highway": "lpt",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 5.3367,
+    "lon": 103.0216
   },
   {
     "id": "MEX-SALAK-SELATAN",
     "name": "Salak Selatan",
     "highway": "mex",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1089,
+    "lon": 101.7024
   },
   {
     "id": "MEX-SERI-KEMBANGAN",
     "name": "Seri Kembangan",
     "highway": "mex",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0393,
+    "lon": 101.7057
   },
   {
     "id": "MEX-PUTRAJAYA",
@@ -316,35 +360,45 @@
     "name": "Sunway",
     "highway": "kesas",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0587,
+    "lon": 101.6083
   },
   {
     "id": "KESAS-KEMUNING",
     "name": "Kemuning",
     "highway": "kesas",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.9973,
+    "lon": 101.5221
   },
   {
     "id": "GCE-BUKIT-JELUTONG",
     "name": "Bukit Jelutong",
     "highway": "prolintas-gce",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1237,
+    "lon": 101.5283
   },
   {
     "id": "GCE-ELMINA",
     "name": "Elmina",
     "highway": "prolintas-gce",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2037,
+    "lon": 101.5073
   },
   {
     "id": "GCE-LAGONG",
     "name": "Lagong",
     "highway": "prolintas-gce",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2622,
+    "lon": 101.5392
   },
   {
     "id": "AKLEH-JALAN-DATUK-KERAMAT",
@@ -358,49 +412,63 @@
     "name": "Taman Rimba Templer",
     "highway": "latar",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2884,
+    "lon": 101.582
   },
   {
     "id": "LATAR-KUNDANG-BARAT",
     "name": "Kundang Barat",
     "highway": "latar",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2696,
+    "lon": 101.5184
   },
   {
     "id": "LATAR-KUNDANG-TIMUR",
     "name": "Kundang Timur",
     "highway": "latar",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2716,
+    "lon": 101.5083
   },
   {
     "id": "LATAR-IJOK",
     "name": "Ijok",
     "highway": "latar",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2905,
+    "lon": 101.393
   },
   {
     "id": "LATAR-KUANG-BARAT",
     "name": "Kuang Barat",
     "highway": "latar",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2716,
+    "lon": 101.4761
   },
   {
     "id": "LATAR-KUANG-TIMUR",
     "name": "Kuang Timur",
     "highway": "latar",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2708,
+    "lon": 101.5305
   },
   {
     "id": "LATAR-ECO-GRANDEUR",
     "name": "Eco Grandeur",
     "highway": "latar",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2819,
+    "lon": 101.4246
   },
   {
     "id": "SPRINT-DAMANSARA",
@@ -428,49 +496,63 @@
     "name": "Sungai Balak",
     "highway": "prolintas-silk",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0079,
+    "lon": 101.7703
   },
   {
     "id": "SILK-SUNGAI-RAMAL",
     "name": "Sungai Ramal",
     "highway": "prolintas-silk",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.9794,
+    "lon": 101.7754
   },
   {
     "id": "SILK-BUKIT-KAJANG",
     "name": "Bukit Kajang",
     "highway": "prolintas-silk",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.9753,
+    "lon": 101.8152
   },
   {
     "id": "SILK-SUNGAI-LONG",
     "name": "Sungai Long",
     "highway": "prolintas-silk",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0278,
+    "lon": 101.8103
   },
   {
     "id": "DASH-DENAI-ALAM",
     "name": "Denai Alam",
     "highway": "prolintas-dash",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1487,
+    "lon": 101.5015
   },
   {
     "id": "DASH-KWASA-DAMANSARA",
     "name": "Kwasa Damansara",
     "highway": "prolintas-dash",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.15,
+    "lon": 101.5643
   },
   {
     "id": "DASH-KOTA-DAMANSARA",
     "name": "Kota Damansara",
     "highway": "prolintas-dash",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1573,
+    "lon": 101.5966
   },
   {
     "id": "SMART-TUNNEL",
@@ -491,77 +573,99 @@
     "name": "Bandar Cassia",
     "highway": "penang2",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 5.2761,
+    "lon": 100.4532
   },
   {
     "id": "ELITE-SBI",
     "name": "Sungai Besi",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0393,
+    "lon": 101.7057
   },
   {
     "id": "ELITE-EBN",
     "name": "Ebor Utara",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0571,
+    "lon": 101.5588
   },
   {
     "id": "ELITE-EBS",
     "name": "Ebor Selatan",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0571,
+    "lon": 101.5588
   },
   {
     "id": "ELITE-SEA",
     "name": "Seafield",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0535,
+    "lon": 101.5683
   },
   {
     "id": "ELITE-USJ",
     "name": "USJ",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0255,
+    "lon": 101.5791
   },
   {
     "id": "ELITE-PHT",
     "name": "Putra Heights",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.9897,
+    "lon": 101.5768
   },
   {
     "id": "ELITE-BSP",
     "name": "Bandar Saujana Putra",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.956,
+    "lon": 101.5799
   },
   {
     "id": "ELITE-PTJ",
     "name": "Putrajaya",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.9501,
+    "lon": 101.6517
   },
   {
     "id": "ELITE-BGC",
     "name": "Bandar Gamuda Cove",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.8828,
+    "lon": 101.6245
   },
   {
     "id": "ELITE-KLA",
     "name": "KLIA",
     "highway": "elite",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.7338,
+    "lon": 101.7154
   },
   {
     "id": "ELITE-BSR",
@@ -582,105 +686,135 @@
     "name": "Bukit Raja",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0695,
+    "lon": 101.4545
   },
   {
     "id": "NKVE-STA",
     "name": "Setia Alam",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0918,
+    "lon": 101.4863
   },
   {
     "id": "NKVE-SHA",
     "name": "Shah Alam",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0978,
+    "lon": 101.5452
   },
   {
     "id": "NKVE-SBG",
     "name": "Subang",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1029,
+    "lon": 101.5906
   },
   {
     "id": "NKVE-DMR",
     "name": "Damansara",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1307,
+    "lon": 101.6387
   },
   {
     "id": "NKVE-KDR",
     "name": "Kota Damansara",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1573,
+    "lon": 101.5966
   },
   {
     "id": "NKVE-SGB",
     "name": "Sungai Buloh",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.2015,
+    "lon": 101.586
   },
   {
     "id": "NKVE-HSB",
     "name": "Hospital Sungai Buloh",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.223,
+    "lon": 101.5807
   },
   {
     "id": "NKVE-JLD",
     "name": "Jalan Duta",
     "highway": "nkve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1759,
+    "lon": 101.6557
   },
   {
     "id": "BESRAYA-LOKE-YEW",
     "name": "Loke Yew",
     "highway": "besraya",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.1208,
+    "lon": 101.7247
   },
   {
     "id": "BESRAYA-MINES",
     "name": "Mines",
     "highway": "besraya",
     "system": "open",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.044,
+    "lon": 101.7084
   },
   {
     "id": "LEKAS-KAJANG-SELATAN",
     "name": "Kajang Selatan",
     "highway": "lekas",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0007,
+    "lon": 101.7274
   },
   {
     "id": "LEKAS-SEMENYIH",
     "name": "Semenyih",
     "highway": "lekas",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.9407,
+    "lon": 101.8279
   },
   {
     "id": "LEKAS-ECO-MAJESTIC",
     "name": "Eco Majestic",
     "highway": "lekas",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.8946,
+    "lon": 101.8323
   },
   {
     "id": "LEKAS-PAJAM",
     "name": "Pajam",
     "highway": "lekas",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.8406,
+    "lon": 101.8337
   },
   {
     "id": "LEKAS-MANTIN",
@@ -694,7 +828,9 @@
     "name": "Setul",
     "highway": "lekas",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.7707,
+    "lon": 101.9158
   },
   {
     "id": "SKVE-AYH",
@@ -708,7 +844,9 @@
     "name": "Saujana Putra",
     "highway": "skve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.948,
+    "lon": 101.582
   },
   {
     "id": "SKVE-SAE",
@@ -729,21 +867,27 @@
     "name": "Teluk Panglima Garang",
     "highway": "skve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.8954,
+    "lon": 101.4852
   },
   {
     "id": "SKVE-PUI",
     "name": "Pulau Indah",
     "highway": "skve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.9046,
+    "lon": 101.3392
   },
   {
     "id": "SDE-SENAI",
     "name": "Senai",
     "highway": "sde",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 1.6032,
+    "lon": 103.6747
   },
   {
     "id": "SDE-ULU-TIRAM",
@@ -757,14 +901,18 @@
     "name": "Cahaya Baru",
     "highway": "sde",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 1.516,
+    "lon": 103.965
   },
   {
     "id": "SDE-PENAWAR",
     "name": "Penawar",
     "highway": "sde",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 1.5778,
+    "lon": 104.1912
   },
   {
     "id": "WCE-BTG",
@@ -778,7 +926,9 @@
     "name": "SAE",
     "highway": "wce",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 2.986,
+    "lon": 101.4918
   },
   {
     "id": "WCE-BBS",
@@ -792,14 +942,18 @@
     "name": "Bandar Bukit Raja Utara",
     "highway": "wce",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0695,
+    "lon": 101.4545
   },
   {
     "id": "WCE-AJW",
     "name": "Assam Jawa",
     "highway": "wce",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.3134,
+    "lon": 101.3738
   },
   {
     "id": "WCE-HMT",
@@ -827,28 +981,36 @@
     "name": "Sitiawan",
     "highway": "wce",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 4.1817,
+    "lon": 100.7366
   },
   {
     "id": "WCE-STN",
     "name": "Sitiawan Utara",
     "highway": "wce",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 4.248,
+    "lon": 100.7296
   },
   {
     "id": "WCE-CKC",
     "name": "Changkat Cermin",
     "highway": "wce",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 4.3431,
+    "lon": 100.802
   },
   {
     "id": "WCE-BRS",
     "name": "Beruas",
     "highway": "wce",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 4.4962,
+    "lon": 100.7963
   },
   {
     "id": "WCE-TRG",
@@ -869,28 +1031,36 @@
     "name": "Sungai Long",
     "highway": "ekve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0278,
+    "lon": 101.8103
   },
   {
     "id": "EKVE-BANDAR-MAHKOTA-CHERAS",
     "name": "Bandar Mahkota Cheras",
     "highway": "ekve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0482,
+    "lon": 101.776
   },
   {
     "id": "EKVE-HULU-LANGAT",
     "name": "Hulu Langat",
     "highway": "ekve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 3.0745,
+    "lon": 101.7604
   },
   {
     "id": "EKVE-AMPANG",
     "name": "Ampang",
     "highway": "ekve",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 4.5833,
+    "lon": 101.1437
   },
   {
     "id": "LINKEDUA-SNU",
@@ -911,14 +1081,18 @@
     "name": "Tanjung Kupang",
     "highway": "linkedua",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 1.3821,
+    "lon": 103.5936
   },
   {
     "id": "LINKEDUA-TTP",
     "name": "Perling",
     "highway": "linkedua",
     "system": "closed",
-    "charging_type": "plaza"
+    "charging_type": "plaza",
+    "lat": 1.4884,
+    "lon": 103.6719
   },
   {
     "id": "GRANDSAGA-BATU-9",
@@ -933,5 +1107,764 @@
     "highway": "cke",
     "system": "open",
     "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-TGK",
+    "name": "Tangkak",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.245,
+    "lon": 102.5335
+  },
+  {
+    "id": "PLUS-NSE-PGH",
+    "name": "Pagoh",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.1309,
+    "lon": 102.7314
+  },
+  {
+    "id": "PLUS-NSE-BGR",
+    "name": "Bukit Gambir",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.1941,
+    "lon": 102.622
+  },
+  {
+    "id": "PLUS-NSE-YPU",
+    "name": "Yong Peng Utara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-YPS",
+    "name": "Yong Peng Selatan",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-AHT",
+    "name": "Ayer Hitam",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 1.9305,
+    "lon": 103.1863
+  },
+  {
+    "id": "PLUS-NSE-MAC",
+    "name": "Machap",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SPR",
+    "name": "Simpang Renggam",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SDK",
+    "name": "Sedenak",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-KLI",
+    "name": "Kulai",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 1.6032,
+    "lon": 103.6747
+  },
+  {
+    "id": "PLUS-NSE-SKD",
+    "name": "Skudai",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SNU",
+    "name": "Senai Utara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-KPS",
+    "name": "Kempas",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 1.5542,
+    "lon": 103.7012
+  },
+  {
+    "id": "PLUS-NSE-BSI",
+    "name": "Bangunan Sultan Iskandar",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-TTK",
+    "name": "Tanjung Kupang",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 1.3821,
+    "lon": 103.5936
+  },
+  {
+    "id": "PLUS-NSE-TLK",
+    "name": "Lima Kedai",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-TTP",
+    "name": "Perling",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 1.4884,
+    "lon": 103.6719
+  },
+  {
+    "id": "PLUS-NSE-JTR",
+    "name": "Jitra",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 6.2521,
+    "lon": 100.4352
+  },
+  {
+    "id": "PLUS-NSE-HKG",
+    "name": "Hutan Kampong",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-ASU",
+    "name": "Alor Setar Utara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 6.1381,
+    "lon": 100.3941
+  },
+  {
+    "id": "PLUS-NSE-ASS",
+    "name": "Alor Setar Selatan",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 6.0825,
+    "lon": 100.3741
+  },
+  {
+    "id": "PLUS-NSE-PDG",
+    "name": "Pendang",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.9782,
+    "lon": 100.4441
+  },
+  {
+    "id": "PLUS-NSE-GRN",
+    "name": "Gurun",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SPU",
+    "name": "Sungai Petani Utara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SPS",
+    "name": "Sungai Petani Selatan",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-BBR",
+    "name": "Bandar Baharu",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.1081,
+    "lon": 100.5537
+  },
+  {
+    "id": "PLUS-NSE-SAT",
+    "name": "Simpang Ampat",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.447,
+    "lon": 102.1839
+  },
+  {
+    "id": "PLUS-NSE-AKH",
+    "name": "Ayer Keroh",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.3004,
+    "lon": 102.3105
+  },
+  {
+    "id": "PLUS-NSE-JSN",
+    "name": "Jasin",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-BDA",
+    "name": "Bandar Ainsdale",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SBN",
+    "name": "Seremban",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.8331,
+    "lon": 101.7978
+  },
+  {
+    "id": "PLUS-NSE-PDU",
+    "name": "Port Dickson Utara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-PDS",
+    "name": "Port Dickson Selatan",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SWG",
+    "name": "Senawang",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-PLI",
+    "name": "Pedas Linggi",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.5667,
+    "lon": 102.0448
+  },
+  {
+    "id": "PLUS-NSE-MBU",
+    "name": "Mambau",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-BBN",
+    "name": "Bandar Baru Nilai",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-LKT",
+    "name": "Lukut",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-ALP",
+    "name": "Alor Pongsu",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.0684,
+    "lon": 100.5945
+  },
+  {
+    "id": "PLUS-NSE-BKM",
+    "name": "Bukit Merah",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 4.9962,
+    "lon": 100.6541
+  },
+  {
+    "id": "PLUS-NSE-TPU",
+    "name": "Taiping Utara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 4.8953,
+    "lon": 100.6699
+  },
+  {
+    "id": "PLUS-NSE-CKJ",
+    "name": "Changkat Jering",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 4.7821,
+    "lon": 100.7194
+  },
+  {
+    "id": "PLUS-NSE-KKS",
+    "name": "Kuala Kangsar",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SPP",
+    "name": "Simpang Pulai",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 4.5255,
+    "lon": 101.1329
+  },
+  {
+    "id": "PLUS-NSE-GPG",
+    "name": "Gopeng",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 4.4532,
+    "lon": 101.1676
+  },
+  {
+    "id": "PLUS-NSE-TPH",
+    "name": "Tapah",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-BDR",
+    "name": "Bidor",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 4.107,
+    "lon": 101.2979
+  },
+  {
+    "id": "PLUS-NSE-SKI",
+    "name": "Sungkai",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-PSR",
+    "name": "Slim River",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.8467,
+    "lon": 101.3964
+  },
+  {
+    "id": "PLUS-NSE-TGM",
+    "name": "Tanjung Malim",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-BRG",
+    "name": "Behrang",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-BRT",
+    "name": "Bertam",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.5195,
+    "lon": 100.4428
+  },
+  {
+    "id": "PLUS-NSE-SGD",
+    "name": "Sungai Dua",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.4586,
+    "lon": 100.4191
+  },
+  {
+    "id": "PLUS-NSE-BTU",
+    "name": "Bukit Tambun Utara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.2761,
+    "lon": 100.4532
+  },
+  {
+    "id": "PLUS-NSE-BTS",
+    "name": "Bukit Tambun Selatan",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.2768,
+    "lon": 100.4569
+  },
+  {
+    "id": "PLUS-NSE-BCS",
+    "name": "Bandar Cassia",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.2761,
+    "lon": 100.4532
+  },
+  {
+    "id": "PLUS-NSE-KSG",
+    "name": "Kubang Semang",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.3985,
+    "lon": 100.4251
+  },
+  {
+    "id": "PLUS-NSE-LUN",
+    "name": "Lunas",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.417,
+    "lon": 100.5309
+  },
+  {
+    "id": "PLUS-NSE-JWI",
+    "name": "Jawi",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.1869,
+    "lon": 100.4898
+  },
+  {
+    "id": "PLUS-NSE-JPP",
+    "name": "Penang Bridge",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 5.3575,
+    "lon": 100.3933
+  },
+  {
+    "id": "PLUS-NSE-LBB",
+    "name": "Lembah Beringin",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.5741,
+    "lon": 101.5276
+  },
+  {
+    "id": "PLUS-NSE-BKB",
+    "name": "Bukit Beruntung",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.4244,
+    "lon": 101.5534
+  },
+  {
+    "id": "PLUS-NSE-RAW",
+    "name": "Rawang",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.3044,
+    "lon": 101.5487
+  },
+  {
+    "id": "PLUS-NSE-SGB",
+    "name": "Sungai Buloh",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.2015,
+    "lon": 101.586
+  },
+  {
+    "id": "PLUS-NSE-RWS",
+    "name": "Rawang Selatan",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-HSB",
+    "name": "Hospital Sungai Buloh",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.223,
+    "lon": 101.5807
+  },
+  {
+    "id": "PLUS-NSE-SBY",
+    "name": "Sungai Buaya",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.3731,
+    "lon": 101.5497
+  },
+  {
+    "id": "PLUS-NSE-KDR",
+    "name": "Kota Damansara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.1573,
+    "lon": 101.5966
+  },
+  {
+    "id": "PLUS-NSE-DMR",
+    "name": "Damansara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.1307,
+    "lon": 101.6387
+  },
+  {
+    "id": "PLUS-NSE-SBG",
+    "name": "Subang",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.1029,
+    "lon": 101.5906
+  },
+  {
+    "id": "PLUS-NSE-STA",
+    "name": "Setia Alam",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0918,
+    "lon": 101.4863
+  },
+  {
+    "id": "PLUS-NSE-BKR",
+    "name": "Bukit Raja",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0695,
+    "lon": 101.4545
+  },
+  {
+    "id": "PLUS-NSE-SBI",
+    "name": "Sungai Besi",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0393,
+    "lon": 101.7057
+  },
+  {
+    "id": "PLUS-NSE-UPM",
+    "name": "UPM",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0007,
+    "lon": 101.7274
+  },
+  {
+    "id": "PLUS-NSE-KJG",
+    "name": "Kajang",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0745,
+    "lon": 101.7604
+  },
+  {
+    "id": "PLUS-NSE-BGS",
+    "name": "Bangi",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.9329,
+    "lon": 101.7601
+  },
+  {
+    "id": "PLUS-NSE-PSV",
+    "name": "Southville",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.9074,
+    "lon": 101.7595
+  },
+  {
+    "id": "PLUS-NSE-PPM",
+    "name": "Putra Mahkota",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-SHA",
+    "name": "Shah Alam",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0978,
+    "lon": 101.5452
+  },
+  {
+    "id": "PLUS-NSE-EBN",
+    "name": "Ebor Utara",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0571,
+    "lon": 101.5588
+  },
+  {
+    "id": "PLUS-NSE-EBS",
+    "name": "Ebor Selatan",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0571,
+    "lon": 101.5588
+  },
+  {
+    "id": "PLUS-NSE-SEA",
+    "name": "Seafield",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0535,
+    "lon": 101.5683
+  },
+  {
+    "id": "PLUS-NSE-USJ",
+    "name": "USJ",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.0255,
+    "lon": 101.5791
+  },
+  {
+    "id": "PLUS-NSE-PHT",
+    "name": "Putra Height",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.9897,
+    "lon": 101.5768
+  },
+  {
+    "id": "PLUS-NSE-BSP",
+    "name": "Bandar Saujana Putra",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.956,
+    "lon": 101.5799
+  },
+  {
+    "id": "PLUS-NSE-BGC",
+    "name": "Bandar Gamuda Cove",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.8828,
+    "lon": 101.6245
+  },
+  {
+    "id": "PLUS-NSE-BSR",
+    "name": "Bandar Serenia",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-BTR",
+    "name": "Bukit Tagar",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza"
+  },
+  {
+    "id": "PLUS-NSE-KLA",
+    "name": "KLIA",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.7338,
+    "lon": 101.7154
+  },
+  {
+    "id": "PLUS-NSE-JLD",
+    "name": "Jalan Duta",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 3.1759,
+    "lon": 101.6557
+  },
+  {
+    "id": "PLUS-NSE-PTJ",
+    "name": "Putrajaya",
+    "highway": "plus-nse",
+    "system": "closed",
+    "charging_type": "plaza",
+    "lat": 2.9501,
+    "lon": 101.6517
   }
 ]

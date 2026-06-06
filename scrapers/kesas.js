@@ -26,7 +26,7 @@ class KesasScraper extends ConcessionaireScraper {
       highway: 'kesas',
       system: 'open',
       sourceUrl: SOURCE_URL,
-      effectiveDate: '2024-01-01', // effective date unconfirmed; update once verified
+      effectiveDate: '2013-01-15', // reduced from RM2.20 to RM2.00 w.e.f. 15 Jan 2013
     });
   }
 

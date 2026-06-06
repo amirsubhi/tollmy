@@ -3,11 +3,11 @@
   "concessionaire": "kesas",
   "system": "open",
   "currency": "MYR",
-  "effective_date": "2024-01-01",
-  "last_verified": "2026-06-03",
+  "effective_date": "2013-01-15",
+  "last_verified": "2026-06-06",
   "source": {
     "url": "https://kesas.com.my/toll-lane/",
-    "scraped_at": "2026-06-03T14:29:40.025+00:00"
+    "scraped_at": "2026-06-06T10:33:11.706+00:00"
   },
   "fares": {
     "KESAS-AWAN-BESAR-E": {
