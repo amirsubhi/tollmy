@@ -8,6 +8,7 @@
 [![Code: MIT](https://img.shields.io/badge/code-MIT-green?style=flat-square)](LICENSE)
 [![Node ≥ 18](https://img.shields.io/badge/node-%E2%89%A518-brightgreen?style=flat-square)](package.json)
 [![Highways](https://img.shields.io/badge/highways-31-orange?style=flat-square)](#coverage)
+[![CI](https://github.com/amirsubhi/tollmy/actions/workflows/ci.yml/badge.svg)](https://github.com/amirsubhi/tollmy/actions/workflows/ci.yml)
 [![Validated](https://img.shields.io/badge/schema-validated-success?style=flat-square)](#quick-start)
 
 Machine-readable fares for every active toll highway in Peninsular Malaysia — scraped from official sources, validated against a strict schema, and free to use under ODbL.
@@ -20,7 +21,7 @@ Machine-readable fares for every active toll highway in Peninsular Malaysia — 
 
 ## Coverage
 
-> **31 highways · 16 concessionaires · 223 plazas · 8,591 closed-system fare pairs** — full Peninsular Malaysia coverage.
+> **31 highways · 16 concessionaires · 224 plazas · 8,591 closed-system fare pairs** — full Peninsular Malaysia coverage.
 
 <details open>
 <summary><strong>Closed systems</strong> (entry × exit fare matrix)</summary>
@@ -78,6 +79,12 @@ npm install
 npm run validate    # validate every rate file against the schema
 npm test            # engine unit tests
 npm run api         # start the HTTP API on :3000
+```
+
+Or with Docker (no Node required):
+
+```bash
+docker compose up   # API on :3000, data/ mounted read-only
 ```
 
 ---
@@ -274,6 +281,8 @@ node scripts/validate.js                   # validate everything (CI gate)
 **Update cadence:** on-announcement (rate revisions, new promotions) + quarterly re-verify sweep.
 
 To add a new concessionaire, see [CLAUDE.md — How to add a concessionaire](./CLAUDE.md#how-to-add-a-concessionaire). See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
+
+The full API spec is in [`openapi.yaml`](./openapi.yaml) (OpenAPI 3.1) — paste it into [Swagger UI](https://editor.swagger.io/) or import into Postman for interactive docs.
 
 ---
 
