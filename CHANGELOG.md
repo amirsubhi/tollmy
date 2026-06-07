@@ -9,6 +9,18 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [1.0.0] — 2026-06-07
+
+### Added
+- GitHub Pages data hosting at `https://amirsubhi.github.io/tollmy/` — all JSON rate files publicly accessible with CORS
+- `index.html` data browser listing all 27 rate files with direct links
+- CI status badge in README
+
+### Fixed
+- Plaza count corrected to 224 (was 223) in README and coverage summary
+
+---
+
 ## [0.2.0] — 2026-06-06
 
 ### Added — dataset
