@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tollmy — Malaysian Highway Toll Fares Dataset</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1.5rem; color: #222; }
+    h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+    p.lead { color: #555; margin-top: 0; }
+    h2 { margin-top: 2rem; font-size: 1.1rem; border-bottom: 1px solid #eee; padding-bottom: 0.4rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin: 0.35rem 0; }
+    a { color: #0969da; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { background: #f6f8fa; padding: 0.1em 0.4em; border-radius: 4px; font-size: 0.88em; }
+    .note { background: #fff8c5; border-left: 4px solid #d4a017; padding: 0.75rem 1rem; border-radius: 4px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<h1>tollmy</h1>
+<p class="lead">Open, machine-readable dataset of Malaysian highway toll fares — 31 highways, 224 plazas, 8,591 fare pairs.</p>
+
+<div class="note">
+  Fares are sourced from each operator's published schedule and may be incomplete or outdated.
+  Always verify against the operator's own calculator before relying on any fare for payment.
+</div>
+
+<h2>Dataset files (JSON)</h2>
+<ul>
+  <li><a href="data/concessionaires.json"><code>concessionaires.json</code></a> — 16 operators and their highways</li>
+  <li><a href="data/plazas.json"><code>plazas.json</code></a> — 224 plazas with coordinates</li>
+  <li><a href="data/promotions.json"><code>promotions.json</code></a> — festive/government discounts</li>
+</ul>
+
+<h2>Rate files</h2>
+<ul>
+  <li><a href="data/rates/plus-nse.json"><code>plus-nse.json</code></a> — PLUS NSE (7,921 pairs)</li>
+  <li><a href="data/rates/elite.json"><code>elite.json</code></a> — PLUS ELITE</li>
+  <li><a href="data/rates/nkve.json"><code>nkve.json</code></a> — PLUS NKVE</li>
+  <li><a href="data/rates/linkedua.json"><code>linkedua.json</code></a> — Linkedua Second Link</li>
+  <li><a href="data/rates/lpt.json"><code>lpt.json</code></a> — LPT (342 pairs)</li>
+  <li><a href="data/rates/wce.json"><code>wce.json</code></a> — WCE</li>
+  <li><a href="data/rates/skve.json"><code>skve.json</code></a> — SKVE</li>
+  <li><a href="data/rates/lekas.json"><code>lekas.json</code></a> — LEKAS</li>
+  <li><a href="data/rates/sde.json"><code>sde.json</code></a> — SDE</li>
+  <li><a href="data/rates/ekve.json"><code>ekve.json</code></a> — EKVE</li>
+  <li><a href="data/rates/litrak-ldp.json"><code>litrak-ldp.json</code></a> — LDP</li>
+  <li><a href="data/rates/sprint.json"><code>sprint.json</code></a> — SPRINT</li>
+  <li><a href="data/rates/duke.json"><code>duke.json</code></a> — DUKE</li>
+  <li><a href="data/rates/spe.json"><code>spe.json</code></a> — SPE</li>
+  <li><a href="data/rates/prolintas-akleh.json"><code>prolintas-akleh.json</code></a> — AKLEH</li>
+  <li><a href="data/rates/prolintas-silk.json"><code>prolintas-silk.json</code></a> — SILK</li>
+  <li><a href="data/rates/prolintas-dash.json"><code>prolintas-dash.json</code></a> — DASH</li>
+  <li><a href="data/rates/prolintas-gce.json"><code>prolintas-gce.json</code></a> — GCE</li>
+  <li><a href="data/rates/prolintas-suke.json"><code>prolintas-suke.json</code></a> — SUKE</li>
+  <li><a href="data/rates/kesas.json"><code>kesas.json</code></a> — KESAS</li>
+  <li><a href="data/rates/latar.json"><code>latar.json</code></a> — LATAR</li>
+  <li><a href="data/rates/mex.json"><code>mex.json</code></a> — MEX</li>
+  <li><a href="data/rates/klk.json"><code>klk.json</code></a> — KLK</li>
+  <li><a href="data/rates/besraya.json"><code>besraya.json</code></a> — BESRAYA</li>
+  <li><a href="data/rates/penang2.json"><code>penang2.json</code></a> — Penang 2nd Bridge</li>
+  <li><a href="data/rates/cke.json"><code>cke.json</code></a> — CKE (Grand Saga)</li>
+  <li><a href="data/rates/smart.json"><code>smart.json</code></a> — SMART Tunnel</li>
+</ul>
+
+<h2>Links</h2>
+<ul>
+  <li><a href="https://github.com/amirsubhi/tollmy">GitHub repository</a> — source, scrapers, schema, API</li>
+  <li><a href="https://github.com/amirsubhi/tollmy/blob/main/openapi.yaml">OpenAPI 3.1 spec</a> — paste into <a href="https://editor.swagger.io/">Swagger UI</a></li>
+  <li><a href="https://github.com/amirsubhi/tollmy/blob/main/DISCLAIMER.md">Disclaimer</a></li>
+</ul>
+
+<p style="margin-top:3rem;font-size:0.85rem;color:#888;">
+  Data: <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL v1.0</a> &nbsp;·&nbsp;
+  Code: MIT &nbsp;·&nbsp;
+  Not affiliated with any toll concessionaire.
+</p>
+
+</body>
+</html>
